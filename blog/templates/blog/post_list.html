@@ -1,9 +1,20 @@
 <html>
     <head>
-        <title>La pagina del Mimo</title>
+        <title>Blog del Mimo</title>
     </head>
     <body>
-        <p>Hola bb</p>
-        <p>Sientese de pana que esta en casa</p>
+        <div>
+            <h1><a href="/">Blog del Mimo</a></h1>
+            <p>Gracias por visitarme BB</p>
+            <p>A continuación unos post que hice de prueba:</p>
+        </div>
+
+        {% for post in posts %}
+            <div>
+                <h2><a href="">{{ post.title }}</a></h2>
+                <p>{{ post.text|linebreaksbr }}</p>
+                <p> publicado: {{ post.published_date }}</p>
+            </div>
+        {% endfor %}
     </body>
 </html>
