@@ -5,7 +5,7 @@
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #000ed8;
+    color: #1723c4;
     font-size: 40pt;
     text-decoration: none;
     margin-left: 60px;
@@ -20,9 +20,9 @@ h1, h2, h3, h4, h5 {
 }
 
 h5 {
-    font-size: 20pt;
+    font-size: 18pt;
     color: #e8e9ff;
-    margin-left: 60px;
+    margin-left: 30px;
 }
 
 .date {
