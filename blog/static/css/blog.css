@@ -1,5 +1,5 @@
 .page-header {
-    background-color: #1b0b00;
+    background-color: #000000d5;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
@@ -8,7 +8,7 @@
     color: #000ed8;
     font-size: 40pt;
     text-decoration: none;
-    margin-left: 80px;
+    margin-left: 60px;
 }
 
 .content {
@@ -17,6 +17,12 @@
 
 h1, h2, h3, h4, h5 {
     font-family: 'Lobster', cursive;
+}
+
+h5 {
+    font-size: 20pt;
+    color: #e8e9ff;
+    margin-left: 60px;
 }
 
 .date {
