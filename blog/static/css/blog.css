@@ -1,24 +1,17 @@
-h1 a, h2 a {
-     color: #3a00c2;
-     font-family: 'Lobster';
-}
-body {
-    padding-left: 25px;
-}
 .page-header {
-    background-color: #050200;
+    background-color: #a7490b;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
     color: #000dc2;
-    font-size: 36pt;
+    font-size: 56pt;
     text-decoration: none;
 }
 
 .content {
-    margin-left: 40px;
+    margin-left: 0px;
 }
 
 h1, h2, h3, h4 {
